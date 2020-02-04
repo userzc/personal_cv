@@ -1,0 +1,205 @@
+\documentclass[11pt,letter]{moderncv}
+% \moderncvstyle{casual}       % idem
+% \moderncvcolor{orange}
+% \moderncvtheme[orange]{casual}
+\moderncvtheme[burgundy]{banking}
+% optional argument are 'nocolor' (black & white cv) and 'roman' (for
+% roman fonts, instead of sans serif fonts)
+% \moderncvstyle{casual}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{textcomp}
+% \usepackage{marvosym}           % símbolos especiales, parece no ocuparse
+\usepackage[]{comment}
+
+
+% personal data (the given example is exhaustive; just give what you want)
+\firstname{\huge René}
+\familyname{\huge Zurita Corro}
+\title{Licenciado en Matemáticas Aplicadas}
+\address{Calle Micaela Galindo, 48}{Huajuapan de León, Oaxaca}  % for classic style
+\phone{(953)~53~22954}
+\mobile{(953)~111~7761}
+\email{zc.rene@gmail.com}
+\social[github]{userzc}
+
+\extrainfo{Ced. Prof.: 5986352 -- R.F.C.: ZUCR8510151J4}
+
+% \extrainfo{R.F.C.: ZUCR8510151J4 \\
+%   Ced. Prof.: 5986352}
+
+\photo[64pt]{FotoFrente.eps} % also optional, and the optional
+% argument is the height the picture must
+% be resized to
+
+% \quote{Any intelligent fool can make things bigger, more complex, and
+% more violent. It takes a touch of genius -- and a lot of courage --
+% to move in the opposite direction.}% also optional
+
+\begin{document}
+
+\makecvtitle
+
+\section{Formación Académica}
+\label{sec:formacion-academica}
+\cventry{2009 -- 2011}{Maestría}{Centro de Investigación en
+  Matemáticas (CIMAT)}{Guanajuato, Gto.}{\textit{Maestría en
+    Matemáticas Aplicadas}}{Titulación en proceso.}
+
+\cventry{2003 -- 2008}{Licenciatura}{Universidad Tecnológica de la
+  Mixteca (UTM)}{Huajuapan de León, Oax.}{\textit{Licenciatura en
+    Matemáticas Aplicadas}}{}
+
+\section{Experiencia}
+\label{sec:experiencia}
+\subsection{Profesional}
+\label{sec:profesional}
+
+
+
+\cventry{Ene 2019 -- Presente}{Desarrollador de Software}{Veureka
+  FVP}{Huajuapan de León, Oax.}{} {Análisis de datos y sysadmin, \emph{Firebase}, \emph{pandas}.}
+
+\cventry{Ene 2018 -- Dic 2018}{Desarrollador de Software}{Veureka
+  FVP}{Huajuapan de León, Oax.}{} {Prueba de concepto para transacciones y pagos utilizando monedas fiat y criptomonedas.}
+
+
+\cventry{Ene 2017 -- Dic 2017}{Desarrollador de Software}{Veureka
+  FVP}{Huajuapan de León, Oax.}{} {Redes públicas y privadas con protocolos de blockchain, \emph{Ripple} y \emph{Stellar}.}
+
+\cventry{Feb 2014 -- Dic 2016}{Desarrollador de Software}{Veureka
+  FVP}{Huajuapan de León, Oax.}{} {Desarrollo de proyectos de software
+  con componentes de optimización {\em Java}.}
+
+\cventry{2014}{Asesor Externo}{Colegio de Bachilleres del Estado de
+  Oaxaca}{Oaxaca de Juárez, Oaxaca}{} {Impartición de asesorías
+  especializadas de Matemáticas para preparación al representante del
+  {\em COBAO} en el {\em XXIII Encuentro Académico, Cultural y
+    Deportivo de la Zona Sur-Sureste}, Primer Lugar obtenido.}
+
+\cventry{2013}{Asesor Externo}{Colegio de Bachilleres del Estado de
+  Oaxaca}{Oaxaca de Juárez, Oaxaca}{} {Impartición de asesorías
+  especializadas de Matemáticas para preparación al representante del
+  {\em COBAO} en el {\em XXII Encuentro Académico, Cultural y
+    Deportivo de la Zona Sur-Sureste}, Primer Lugar obtenido.}
+
+\cventry{2012}{Asesor Externo}{Colegio de Bachilleres del Estado de
+  Oaxaca}{Oaxaca de Juárez, Oaxaca}{} {Impartición de asesorías
+  especializadas de Matemáticas para preparación al representante del
+  {\em COBAO} en el {\em XXI Encuentro Académico, Cultural y Deportivo
+    de la Zona Sur-Sureste}, Primer Lugar obtenido.}
+
+\cventry{2008 -- 2009}{Catedrático}{Instituto Mixteco de Educación
+  Superior}{Tezoatlán de Segura y Luna, Oaxaca}{}{Materias
+  impartidas:\newline{}%
+  % BEGIN RECEIVE ORGTBL ClasesImpartidas
+  % END RECEIVE ORGTBL ClasesImpartidas
+  \begin{itemize}%
+  \item Informática I (64 horas clase).
+  \item Informática II (64 horas clase).
+  \item Matemáticas Básicas (80 horas clase).
+  \item Matemáticas I (80 horas clase).
+  \item Matemáticas Financieras (80 horas clase).
+  \item Matemáticas II (80 horas clase).
+  \end{itemize}
+}
+
+% Por alguna razon no me permite utilizar las tablas de manera
+% adecuada, por lo que no activo la siguiente tabla, quizá
+% en otra versión
+\begin{comment}
+  #+ORGTBL: SEND ClasesImpartidas orgtbl-to-latex :splice nil :skip 0
+  | Materia                 | Horas-Clase |
+  |-------------------------+-------------|
+  | Informática I           |          64 |
+  | Informática II          |          64 |
+  | Matemáticas Básicas     |          80 |
+  | Matemáticas I           |          80 |
+  | Matemáticas Financieras |          80 |
+  | Matemáticas II          |          80 |
+\end{comment}
+
+
+\cventry{2008 -- 2009}{Coordinador Académico}{Instituto Mixteco de
+  Educación Superior}{Tezoatlán de Segura y Luna,
+  Oaxaca}{}{Responsabilidades:\newline{}%
+  \begin{itemize}%
+  \item Estadísticas de calificaciones globales.
+  \item Elaboración de horario escolar.
+  \end{itemize}
+}
+
+\subsection{Otros cursos y distinciones}
+\label{sec:otros-cursos}
+
+\cventry{2009}{Segundo foro nacional de tesis de licenciatura en
+  matemáticas}{}{}{}{Participación en el evento realizado del 17 al 19
+  de junio.}
+
+\cventry{2009}{Segunda escuela internacional de modelación matemática
+  y sus aplicaciones}{Sobre la generación de superficies ópticas con
+  herramientas de pulido clásico}{}{}{Participación en sesión de
+  carteles realizada del 12 al 16 de enero.}
+
+\cventry{2008}{Titulación de tesis}{}{}{}{Aprobación por unanimidad.}
+
+\cventry{2008}{Universidad Tecnológica de la Mixteca}{Huajuapan de
+  León}{}{}{Apoyo técnico al equipo de cómputo del laboratorio de
+  matemáticas aplicadas por un total de 60 horas.}
+
+\cventry{2007}{Universidad Tecnológica de la Mixteca}{Huajuapan de
+  León}{}{}{Impartición de la materia {\em Problemas de matemáticas}
+  por un total de 420 horas a:\newline{}%
+  \begin{itemize}
+  \item Curso propedéutico corto, agosto-septiembre.
+  \item Curso propedéutico largo, marzo-julio.
+  \end{itemize}
+}
+\cventry{2006}{Universidad Tecnológica de la Mixteca}{Huajuapan de
+  León}{}{}{Curso de \LaTeX, 2 horas diarias por 2 semanas.}
+
+
+\cventry{2005}{Universidad Tecnológica de la Mixteca}{Huajuapan de
+  León}{}{}{Curso de programación para el concurso {\em ACM-ICPC}, 8
+  horas diarias por 2 meses.}
+
+
+\section{Idiomas}
+\label{sec:idiomas}
+\cvlanguage{Español}{Nivel Alto}{Idioma materno.}
+\cvlanguage{Inglés}{Nivel Alto}{Por parte de {\em UTM} y {\em CIMAT}.}
+
+\section{Lenguajes de programación}
+\label{sec:leng-prog}
+
+
+\cvcomputer{General}{Python}{General}{node}
+\cvcomputer{General}{C++}{General}{Java}
+\cvcomputer{Scripting}{bash}{Scripting}{zsh}
+\cvcomputer{Programación lógica}{LISP}{Programación lógica}{Prolog}
+\cvcomputer{Optimización}{Optaplaner}{Análisis de datos}{pandas}
+\cvcomputer{SaaS}{Google Cloud Platfom (GCP)}{SaaS}{Firebase}
+
+\section{Conocimientos de computación}
+\label{sec:conoc-de-comp}
+
+\cvdoubleitem{SO}{Windows}{SO}{Linux (Ubuntu, Debian, etc.)}
+
+\cvdoubleitem{Soft. de productividad}{MS Office, OpenOffice,
+  LibreOffice}{Paquetes matemáticos}{Octave, MatLab, R, Maxima,
+  Mathematica}
+
+\cvdoubleitem{Internet}{Explorer, Firefox, Google Chrome, Google
+  Chromium}{Software tipográfico}{\LaTeX, emacs, TeXMaker, TeXmacs}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
